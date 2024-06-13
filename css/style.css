@@ -9,8 +9,8 @@ body {
 }
 
 #titolo {
-    color: hotpink;
-    text-shadow: 4px 4px ghostwhite;
+    color: gray;
+    text-shadow: 4px 4px gainsboro;
 }
 
 span {
@@ -32,28 +32,25 @@ span {
     justify-content: center;
     padding: 10px;
     background-color: lightcoral;
-    width: 45rem;
-    height: 10rem;
     border-radius: 15px;
     margin: 10px 0;
 }
 
-.prisultato {
-    width: 100%;
-    height: 100%;
+#prisultato {
+    width: 50rem;
+    height: 50rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 .risultato {
-    color: black;
-    padding: 10px;
-    width: 50%;
-    background-color: gold;
-    box-shadow: 5px 5px blanchedalmond;
-    border-radius: 10px;
-    text-align: center;
+    width: calc(100% / 8 - 4px);
+    height: calc(100% / 8 - 2px);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.sfondoclick {
+    background-color: yellow;
 }
